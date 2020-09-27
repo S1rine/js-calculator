@@ -1,10 +1,10 @@
-# webpack 配置开发简单 `web` 应用
+# webpack 配置开发简单 web 应用
 
 使用 `webpack` 简单实现一个模块化工程化的应用，运用面向对象的思想。
 内容是一个玩具计算器。
 
-- [webpack 配置开发简单 `web` 应用](#webpack-配置开发简单-web-应用)
-  - [`webpack` 配置步骤](#webpack-配置步骤)
+- [webpack 配置开发简单 web 应用](#webpack-配置开发简单-web-应用)
+  - [webpack 配置步骤](#webpack-配置步骤)
     - [First step](#first-step)
     - [Second step](#second-step)
     - [Third step](#third-step)
@@ -12,7 +12,7 @@
     - [Fifth step](#fifth-step)
   - [开发记录](#开发记录)
 
-## `webpack` 配置步骤
+## webpack 配置步骤
 
 ### First step
 
