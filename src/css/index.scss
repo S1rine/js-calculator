@@ -1,21 +1,15 @@
-body {
-  height: 100vh;
-  width: 100vw;
-  margin: 0;
-  padding: 0;
-  .calculator {
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #000;
+  > div:not(.input-group) {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 300px;
-    background-color: #eee;
-    > div:not(.input-group) {
-      display: flex;
-      justify-content: center;
-    }
+    justify-content: center;
   }
 }
