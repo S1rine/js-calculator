@@ -101,7 +101,8 @@ html-webpack-plugin
   首先，这个类使用了装饰器，引入了 `compute` ，给该类的原型对象上增加了几个方法。
 
   ```js
-  // src/lib/Compute.js
+  /* src/lib/Compute.js
+   */
   export default target => {
     target.prototype.plus = function (a, b) {
       return a + b
